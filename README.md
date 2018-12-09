@@ -19,8 +19,9 @@ washington.csv
 all in .gitignore
 
 ### Credits
-python.org
-stackoverflow.com
+https://www.python.org
+https://stackoverflow.com
+https://docs.scipy.org/doc/numpy/reference/generated/numpy.nanmin.html
 Book:  *Python for Data Analysis*
 Neighborkid:  Chandler Supple
 
