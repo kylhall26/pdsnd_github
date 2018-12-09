@@ -2,7 +2,7 @@
 December 9, 2018
 
 ### Project Title
-US Bikeshare Project
+**US Bikeshare Project**
 
 ### Description
 This project creates a user interface for data.  The data describes bikeshare usage in three US cities:  Chicago, New 
@@ -21,6 +21,6 @@ all in .gitignore
 ### Credits
 python.org
 stackoverflow.com
-Book:  Python for Data Analysis
-Neigborkid:  Chandler Supple
+Book:  *Python for Data Analysis*
+Neighborkid:  Chandler Supple
 
