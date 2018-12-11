@@ -135,17 +135,19 @@ def user_stats(df):
 
     # TO DO: Display counts of user types
     user_types = df['User Type'].value_counts()
-    if 'User Type' in df.columns:
-        print("\nUser types are: ", user_types)
+    if city == 'washington':
+        print("That info isn't available.")
+            break
     else:
-        print("\nUser types are not present")
+        print("\nUser types are: ", user_types)
 
     # TO DO: Display counts of gender
     gender = df['Gender'].value_counts()
-    if 'Gender' in df.columns:
-        print("\nThe breakdown of gender is: ", gender)
+    if city == 'washington':
+        print("That info isn't available")
+            break
     else:
-        print("\nGender is not in this dataset")
+        print("\nThe breakdown of gender is: ", gender)
 
     # TO DO: Display earliest, most recent, and most common year of birth
     oldest_birth=np.nanmin(df['Birth Year'])[0]
